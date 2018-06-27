@@ -45,13 +45,15 @@ bot.on("ready", function () {
         let rndNumber = Math.floor(Math.random() * 8) + 1;
         switch (rndNumber) {
           case 1:
-                bot.user.setUsername("Jiren")
+                bot.user.setUsername("Jiren™")
                 break;
           case 2:
-                bot.user.setUsername("Jiren(0.01")
+                bot.user.setUsername("Jiren 0.01™")
                 break;                     
         }
     }, 999999);
+  bot.user.setUsername("Jiren™")
+.then(user => console.log(`j'ai choisis mon avatar`))
     
     bot.on("message", message =>{
  
