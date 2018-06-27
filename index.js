@@ -72,3 +72,4 @@ message.guild.member(User).send(emb);
         }
 }
   })
+bot.login(process.env.TOKEN)
